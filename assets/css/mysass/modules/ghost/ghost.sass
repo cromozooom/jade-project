@@ -1,0 +1,48 @@
+//- MIXIN //
+//- /////////////////////////////////////////////////////////////////////////////////////////////
+// Button Ghost
+// Easily pump out default styles, as well as :hover, :focus, :active,
+// and disabled options for all buttons
+
+@mixin button-variant-ghost($color, $hoverColor)
+	border: 2px solid
+	color: $color
+	background-color: transparent
+	border-color: $color
+	&:hover,
+	&:focus,
+	&.focus,
+	&:active,
+	&.active,
+	.open > &.dropdown-toggle
+		color: $hoverColor
+		//background-color: $hoverColor
+		border-color: $hoverColor
+	&:active,
+	&.active,
+	.open > &.dropdown-toggle
+		background-image: none
+	&.disabled,
+	&[disabled],
+	fieldset[disabled] &
+		&,
+		&:hover,
+		&:focus,
+		&.focus,
+		&:active,
+		&.active
+			background-color: $hoverColor
+			border-color: $hoverColor
+	.badge
+		color: $color
+		background-color: $color
+
+
+//- CSS //
+//- /////////////////////////////////////////////////////////////////////////////////////////////
+
+	$btn-ghost-color-theme: red
+	$btn-ghost-color-hover-theme: red
+
+	.btn-ghost-theme
+		@include button-variant-ghost($btn-ghost-color-theme, $btn-ghost-color-hover-theme)
