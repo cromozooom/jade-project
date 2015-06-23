@@ -22,25 +22,175 @@
     <!--if lt IE 9-->
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <link href="undefined" rel="stylesheet" type="text/css">
   </head>
   <body class="undefined">
-    <div role="navigation" class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="#" class="navbar-brand">Default project Name</a>
-        </div>
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-        <!-- /.nav-collapse-->
+    <!--.navbar.navbar-inverse.navbar-fixed-top(role='navigation')
+    .container
+    	.navbar-header
+    		button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+    			span.sr-only Toggle navigation
+    			span.icon-bar
+    			span.icon-bar
+    			span.icon-bar
+    		a.navbar-brand(href='#')
+    			| Default project Name
+    	.collapse.navbar-collapse
+    		ul.nav.navbar-nav
+    			li.active
+    				a(href='#') Home
+    			li
+    				a(href='#about') About
+    			li
+    				a(href='#contact') Contact
+    	// /.nav-collapse
+    -->
+    <!--include ../views/demo_navbar.jade-->
+    <!-- Extra components navbar-->
+    <div class="navbar navbar-default yamm">
+      <div class="navbar-header">
+        <button type="button" data-toggle="collapse" data-target="#navbar-collapse-2" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="#" class="navbar-brand">Default project Name</a>
+      </div>
+      <div id="navbar-collapse-2" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <!-- Media Example-->
+          <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Media<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li>
+                <div class="yamm-content">
+                  <ul class="media-list">
+                    <li class="media"><a href="#" class="pull-right"><img src="demo/img/64x64.gif" alt="64x64" class="media-object"></a>
+                      <div class="media-body">
+                        <h4 class="media-heading">Media heading</h4>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante.
+                      </div>
+                    </li>
+                    <li class="media"><a href="#" class="pull-right"><img src="demo/img/64x64.gif" alt="64x64" class="media-object"></a>
+                      <div class="media-body">
+                        <h4 class="media-heading">Media heading</h4>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque.
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <!-- Tables-->
+          <li class="dropdown yamm-fullwidth"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Tables<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li>
+                <div class="yamm-content">
+                  <table class="table table-hover">
+                    <thead>
+                      <tr>
+                        <th>#</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Username</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Username</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <td>3</td>
+                        <td colspan="2">Larry the Bird</td>
+                        <td>@twitter</td>
+                        <td colspan="2">Larry the Bird</td>
+                        <td>@twitter</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <!-- Thumbnails demo-->
+          <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Thumbnails<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li>
+                <div class="yamm-content">
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <div class="thumbnail"><img alt="260x130" src="http://placehold.it/560x260" class="img-responsive">
+                        <div class="caption">
+                          <h3>Thumb Label</h3>
+                          <p>Mazagran doppio half and half aftertaste organic, rich doppio</p>
+                          <p><a href="#" class="btn btn-primary">Action</a>|<a href="#" class="btn btn-default">Action</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="thumbnail"><img alt="260x130" src="http://placehold.it/560x260" class="img-responsive">
+                        <div class="caption">
+                          <h3>Thumb Label</h3>
+                          <p>Black latte cinnamon, cultivar trifecta crema cappuccino</p>
+                          <p><a href="#" class="btn btn-primary">Action</a>|<a href="#" class="btn btn-default">Action</a></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-4">
+                      <div class="thumbnail"><img alt="260x130" src="http://placehold.it/560x260" class="img-responsive">
+                        <div class="caption">
+                          <h3>Thumb Label</h3>
+                          <p>Bar roast et, as latte café au lait, mocha aromatic robusta</p>
+                          <p><a href="#" class="btn btn-primary">Action</a>|<a href="#" class="btn btn-default">Action</a></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <!-- Forms-->
+          <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Forms<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li>
+                <div class="yamm-content">
+                  <form action="send.php">
+                    <div class="form-group">
+                      <input id="inputName" type="text" placeholder="Name" class="form-control">
+                    </div>
+                    <div class="form-group">
+                      <input id="inputEmail" type="password" placeholder="Email" class="form-control">
+                    </div>
+                    <div class="form-group">
+                      <textarea placeholder="Write your message.." class="form-control"></textarea>
+                    </div>
+                    <div class="form-group">
+                      <button type="submit" class="btn btn-success">Send</button>
+                    </div>
+                  </form>
+                </div>
+              </li>
+            </ul>
+          </li>
+        </ul>
       </div>
     </div>
-    <section>
-      <div class="container-fluid"><br><br><br>
+    <section class="first">
+      <div class="container">
         <row>
           <div class="col-xs-8">
             <h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br><small>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</small></h1>
@@ -54,18 +204,19 @@
       </div>
     </section>
     <hr>
-    <div class="container-fluid footer">
-      <div class="row">
-        <div class="col-xs-12 hidden-md hidden-sm hidden-lg text-center">
-          <h3>Newsletter</h3>
-          <p>Promotions and more details about my activity</p>
-          <hr><a href="undefined" title="Join my mailing list" class="btn_ghost btn-lg_ghost btn-brand_ghost">Join my mailing list</a>
-        </div>
-        <div class="col-sm-4 col-md-4 col-xs-12 text-center">
-          <h3>I am social</h3>
-          <p>These are some places where you can find me.
-            <hr>
-          </p>
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 hidden-md hidden-sm hidden-lg text-center">
+            <h3>Newsletter</h3>
+            <p>Promotions and more details about my activity</p>
+            <hr><a href="undefined" title="Join my mailing list" class="btn_ghost btn-lg_ghost btn-brand_ghost">Join my mailing list</a>
+          </div>
+          <div class="col-sm-4 col-md-4 col-xs-12 text-center">
+            <h3>I am social</h3>
+            <p>These are some places where you can find me.
+              <hr>
+            </p>
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" style="display: none;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="80px" height="80px" viewBox="0 0 80 80" enable-background="new 0 0 80 80" xml:space="preserve" class="icon_social">
@@ -95,52 +246,55 @@
     <circle id="twitterCircle" fill="none" stroke-width="3" stroke-miterlimit="10" cx="40" cy="40" r="34.917"></circle>
   </symbol>
 </svg>
-          <ul class="social list-inline">
-            <li class="text-center"><a href="https://www.facebook.com/#" class="fb text-hide">
-                <svg width="80" height="80" class="svg icon_social">
-                  <use xlink:href="#icon01"></use>
-                </svg>Facebook page</a></li>
-            <li class="text-center"><a href="https://instagram.com/#/" class="instagram text-hide">
-                <svg width="80" height="80" class="svg icon_social">
-                  <use xlink:href="#icon02"></use>
-                </svg>instagram</a></li>
-            <li class="text-center"><a href="http://#.tumblr.com/" class="thumblr text-hide">
-                <svg width="80" height="80" class="svg icon_social">
-                  <use xlink:href="#icon03"></use>
-                </svg>thumblr</a></li>
-            <li class="text-center"><a href="https://it.pinterest.com/#/" class="pinterest text-hide">
-                <svg width="80" height="80" class="svg icon_social">
-                  <use xlink:href="#icon04"></use>
-                </svg>pinterest</a></li>
-            <li class="text-center"><a href="https://twitter.com/#" class="twitter text-hide">
-                <svg width="80" height="80" class="svg icon_social">
-                  <use xlink:href="#icon05"></use>
-                </svg>twitter</a></li>
-          </ul>
+            <ul class="social list-inline">
+              <li class="text-center"><a href="https://www.facebook.com/#" class="fb text-hide">
+                  <svg width="80" height="80" class="svg icon_social">
+                    <use xlink:href="#icon01"></use>
+                  </svg>Facebook page</a></li>
+              <li class="text-center"><a href="https://instagram.com/#/" class="instagram text-hide">
+                  <svg width="80" height="80" class="svg icon_social">
+                    <use xlink:href="#icon02"></use>
+                  </svg>instagram</a></li>
+              <li class="text-center"><a href="http://#.tumblr.com/" class="thumblr text-hide">
+                  <svg width="80" height="80" class="svg icon_social">
+                    <use xlink:href="#icon03"></use>
+                  </svg>thumblr</a></li>
+              <li class="text-center"><a href="https://it.pinterest.com/#/" class="pinterest text-hide">
+                  <svg width="80" height="80" class="svg icon_social">
+                    <use xlink:href="#icon04"></use>
+                  </svg>pinterest</a></li>
+              <li class="text-center"><a href="https://twitter.com/#" class="twitter text-hide">
+                  <svg width="80" height="80" class="svg icon_social">
+                    <use xlink:href="#icon05"></use>
+                  </svg>twitter</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-4 col-md-4 col-xs-12 text-center">
+            <h3>Contact me</h3>
+            <p>Don"t hesitate to get in touch with me</p>
+            <hr>
+            <p>mobile: <a href="tel:348-555-07-61">+348 555 07 61</a><br><br>or <a href="undefined">via e-mail</a>
+            </p>
+          </div>
+          <div class="col-sm-4 col-md-4 hidden-xs text-center">
+            <h3>Newsletter</h3>
+            <p>Promotions and more details about my activity</p>
+            <hr><a href="undefined" class="btn_ghost btn-lg_ghost btn-brand_ghost">Join my mailing list</a>
+          </div>
         </div>
-        <div class="col-sm-4 col-md-4 col-xs-12 text-center">
-          <h3>Contact me</h3>
-          <p>Don"t hesitate to get in touch with me</p>
+        <div class="row">
           <hr>
-          <p>mobile: <a href="tel:348-555-07-61">+348 555 07 61</a><br><br>or <a href="undefined">via e-mail</a>
-          </p>
-        </div>
-        <div class="col-sm-4 col-md-4 hidden-xs text-center">
-          <h3>Newsletter</h3>
-          <p>Promotions and more details about my activity</p>
-          <hr><a href="undefined" class="btn_ghost btn-lg_ghost btn-brand_ghost">Join my mailing list</a>
+          <div class="col-xs-12 text-center"></div>
+          <p class="text-center"><small>Copyright (c) 2015  Default project Name</small></p>
         </div>
       </div>
-      <div class="row">
-        <hr>
-        <div class="col-xs-12 text-center"></div>
-        <p class="text-center"><small>Copyright (c) 2015  Default project Name</small></p>
-      </div>
-    </div>
+    </section>
     <!-- Bootstrap core JavaScript-->
     <!-- ==================================================-->
     <!-- Placed at the end of the document so the pages load faster-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="assets/dist/js/bootstrap.min.js"></script>
+    <script src="assets/javascripts/bootstrap.min.js"></script>
+    <!-- yamm-->
+    <script src="assets/javascripts/yamm.js"></script>
   </body>
 </html>

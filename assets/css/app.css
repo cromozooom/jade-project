@@ -7977,6 +7977,7 @@ button.close {
   background: transparent;
   color: red;
   border: 2px solid red;
+  font-weight: bold;
   -webkit-transition: background 0.3s ease-in-out, border 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out, border 0.3s ease-in-out;
   -ms-transition: background 0.3s ease-in-out, border 0.3s ease-in-out;
@@ -8102,4 +8103,33 @@ svg:hover #twitterCircle {
 
 .fb svg, .instagram svg, .thumblr svg, .pinterest svg, .twitter svg {
   width: 50px;
+}
+
+section {
+  padding: 4em 0;
+}
+
+section.first {
+  padding-top: 6em;
+}
+
+.yamm .nav, .yamm .collapse, .yamm .dropup, .yamm .dropdown {
+  position: static;
+}
+
+.yamm .container {
+  position: relative;
+}
+
+.yamm .dropdown-menu {
+  left: auto;
+}
+
+.yamm .yamm-content {
+  padding: 20px 30px;
+}
+
+.yamm .dropdown.yamm-fw .dropdown-menu {
+  left: 0;
+  right: 0;
 }
