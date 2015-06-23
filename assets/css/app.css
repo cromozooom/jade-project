@@ -1395,13 +1395,13 @@ textarea {
 }
 
 a {
-  color: red;
+  color: yellowgreen;
   text-decoration: none;
 }
 
 a:hover,
 a:focus {
-  color: #b30000;
+  color: #6c9023;
   text-decoration: underline;
 }
 
@@ -1633,12 +1633,12 @@ mark,
 }
 
 .text-primary {
-  color: red;
+  color: yellowgreen;
 }
 
 a.text-primary:hover,
 a.text-primary:focus {
-  color: #cc0000;
+  color: #7ba428;
 }
 
 .text-success {
@@ -1682,12 +1682,12 @@ a.text-danger:focus {
 }
 
 .bg-primary {
-  background-color: red;
+  background-color: yellowgreen;
 }
 
 a.bg-primary:hover,
 a.bg-primary:focus {
-  background-color: #cc0000;
+  background-color: #7ba428;
 }
 
 .bg-success {
@@ -3750,29 +3750,29 @@ fieldset[disabled] .btn-default.active {
 
 .btn-primary {
   color: #fff;
-  background-color: red;
-  border-color: #e60000;
+  background-color: yellowgreen;
+  border-color: #8bb92d;
 }
 
 .btn-primary:focus,
 .btn-primary.focus {
   color: #fff;
-  background-color: #cc0000;
-  border-color: #660000;
+  background-color: #7ba428;
+  border-color: #3e5214;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #cc0000;
-  border-color: #a80000;
+  background-color: #7ba428;
+  border-color: #668721;
 }
 
 .btn-primary:active,
 .btn-primary.active,
 .open > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #cc0000;
-  border-color: #a80000;
+  background-color: #7ba428;
+  border-color: #668721;
 }
 
 .btn-primary:active:hover,
@@ -3785,8 +3785,8 @@ fieldset[disabled] .btn-default.active {
 .open > .btn-primary.dropdown-toggle:focus,
 .open > .btn-primary.dropdown-toggle.focus {
   color: #fff;
-  background-color: #a80000;
-  border-color: #660000;
+  background-color: #668721;
+  border-color: #3e5214;
 }
 
 .btn-primary:active,
@@ -3813,12 +3813,12 @@ fieldset[disabled] .btn-primary:focus,
 fieldset[disabled] .btn-primary.focus,
 fieldset[disabled] .btn-primary:active,
 fieldset[disabled] .btn-primary.active {
-  background-color: red;
-  border-color: #e60000;
+  background-color: yellowgreen;
+  border-color: #8bb92d;
 }
 
 .btn-primary .badge {
-  color: red;
+  color: yellowgreen;
   background-color: #fff;
 }
 
@@ -4119,7 +4119,7 @@ fieldset[disabled] .btn-danger.active {
 }
 
 .btn-link {
-  color: red;
+  color: yellowgreen;
   font-weight: normal;
   border-radius: 0;
 }
@@ -4143,7 +4143,7 @@ fieldset[disabled] .btn-link {
 
 .btn-link:hover,
 .btn-link:focus {
-  color: #b30000;
+  color: #6c9023;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -4309,7 +4309,7 @@ tbody.collapse.in {
   color: #fff;
   text-decoration: none;
   outline: 0;
-  background-color: red;
+  background-color: yellowgreen;
 }
 
 .dropdown-menu > .disabled > a,
@@ -4800,7 +4800,7 @@ tbody.collapse.in {
 .nav .open > a:hover,
 .nav .open > a:focus {
   background-color: #eeeeee;
-  border-color: red;
+  border-color: yellowgreen;
 }
 
 .nav .nav-divider {
@@ -4860,7 +4860,7 @@ tbody.collapse.in {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: #fff;
-  background-color: red;
+  background-color: yellowgreen;
 }
 
 .nav-stacked > li {
@@ -5614,7 +5614,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   padding: 6px 12px;
   line-height: 1.42857;
   text-decoration: none;
-  color: red;
+  color: yellowgreen;
   background-color: #fff;
   border: 1px solid #ddd;
   margin-left: -1px;
@@ -5638,7 +5638,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination > li > span:hover,
 .pagination > li > span:focus {
   z-index: 3;
-  color: #b30000;
+  color: #6c9023;
   background-color: #eeeeee;
   border-color: #ddd;
 }
@@ -5651,8 +5651,8 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination > .active > span:focus {
   z-index: 2;
   color: #fff;
-  background-color: red;
-  border-color: red;
+  background-color: yellowgreen;
+  border-color: yellowgreen;
   cursor: default;
 }
 
@@ -5800,12 +5800,12 @@ a.label:focus {
 }
 
 .label-primary {
-  background-color: red;
+  background-color: yellowgreen;
 }
 
 .label-primary[href]:hover,
 .label-primary[href]:focus {
-  background-color: #cc0000;
+  background-color: #7ba428;
 }
 
 .label-success {
@@ -5877,7 +5877,7 @@ a.label:focus {
 
 .list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: red;
+  color: yellowgreen;
   background-color: #fff;
 }
 
@@ -5978,7 +5978,7 @@ a.badge:focus {
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: red;
+  border-color: yellowgreen;
 }
 
 .alert {
@@ -6109,7 +6109,7 @@ a.thumbnail.active {
   line-height: 20px;
   color: #fff;
   text-align: center;
-  background-color: red;
+  background-color: yellowgreen;
   -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   -webkit-transition: width 0.6s ease;
@@ -6307,8 +6307,8 @@ button.list-group-item {
 .list-group-item.active:focus {
   z-index: 2;
   color: #fff;
-  background-color: red;
-  border-color: red;
+  background-color: yellowgreen;
+  border-color: yellowgreen;
 }
 
 .list-group-item.active .list-group-item-heading,
@@ -6326,7 +6326,7 @@ button.list-group-item {
 .list-group-item.active .list-group-item-text,
 .list-group-item.active:hover .list-group-item-text,
 .list-group-item.active:focus .list-group-item-text {
-  color: #ffcccc;
+  color: #ebf5d6;
 }
 
 .list-group-item-success {
@@ -6783,26 +6783,26 @@ button.list-group-item-danger.active:focus {
 }
 
 .panel-primary {
-  border-color: red;
+  border-color: yellowgreen;
 }
 
 .panel-primary > .panel-heading {
   color: #fff;
-  background-color: red;
-  border-color: red;
+  background-color: yellowgreen;
+  border-color: yellowgreen;
 }
 
 .panel-primary > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: red;
+  border-top-color: yellowgreen;
 }
 
 .panel-primary > .panel-heading .badge {
-  color: red;
+  color: yellowgreen;
   background-color: #fff;
 }
 
 .panel-primary > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: red;
+  border-bottom-color: yellowgreen;
 }
 
 .panel-success {
@@ -7975,8 +7975,8 @@ button.close {
 
 .btn.ghost {
   background: transparent;
-  color: red;
-  border: 2px solid red;
+  color: yellowgreen;
+  border: 2px solid yellowgreen;
   font-weight: bold;
   -webkit-transition: background 0.3s ease-in-out, border 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out, border 0.3s ease-in-out;
@@ -7987,8 +7987,8 @@ button.close {
 
 .ghost:hover, .ghost:active {
   color: white;
-  background: red;
-  border: 2px solid red;
+  background: yellowgreen;
+  border: 2px solid yellowgreen;
 }
 
 .ghost {
@@ -8110,7 +8110,7 @@ section {
 }
 
 section.first {
-  padding-top: 6em;
+  padding-top: 4em;
 }
 
 .yamm .nav, .yamm .collapse, .yamm .dropup, .yamm .dropdown {
