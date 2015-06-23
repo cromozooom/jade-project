@@ -7972,3 +7972,115 @@ button.close {
     display: none !important;
   }
 }
+
+.footer {
+  background: white;
+}
+
+.footer svg {
+  margin-top: -20px;
+}
+
+svg #facebook {
+  fill: #d0d0d0;
+}
+
+svg:hover #facebook {
+  transition-property: fill;
+  transition-duration: 0.8s;
+  fill: #3b5998 !important;
+}
+
+svg #facebookCircle {
+  stroke: #d0d0d0;
+}
+
+svg:hover #facebookCircle {
+  transition-property: stroke;
+  transition-duration: 0.8s;
+  stroke: #3b5998;
+}
+
+svg #instagram {
+  fill: #d0d0d0;
+}
+
+svg:hover #instagram {
+  transition-property: fill;
+  transition-duration: 0.8s;
+  fill: #3f729b !important;
+}
+
+svg #instagramCircle {
+  stroke: #d0d0d0;
+}
+
+svg:hover #instagramCircle {
+  transition-property: stroke;
+  transition-duration: 0.8s;
+  stroke: #3f729b;
+}
+
+svg #thumblr {
+  fill: #d0d0d0;
+}
+
+svg:hover #thumblr {
+  transition-property: fill;
+  transition-duration: 0.8s;
+  fill: #36465d !important;
+}
+
+svg #thumblrCircle {
+  stroke: #d0d0d0;
+}
+
+svg:hover #thumblrCircle {
+  transition-property: stroke;
+  transition-duration: 0.8s;
+  stroke: #36465d;
+}
+
+svg #pinterest {
+  fill: #d0d0d0;
+}
+
+svg:hover #pinterest {
+  transition-property: fill;
+  transition-duration: 0.8s;
+  fill: #cb2027 !important;
+}
+
+svg #pinterestCircle {
+  stroke: #d0d0d0;
+}
+
+svg:hover #pinterestCircle {
+  transition-property: stroke;
+  transition-duration: 0.8s;
+  stroke: #cb2027;
+}
+
+svg #twitter {
+  fill: #d0d0d0;
+}
+
+svg:hover #twitter {
+  transition-property: fill;
+  transition-duration: 0.8s;
+  fill: #3AAAE1 !important;
+}
+
+svg #twitterCircle {
+  stroke: #d0d0d0;
+}
+
+svg:hover #twitterCircle {
+  transition-property: stroke;
+  transition-duration: 0.8s;
+  stroke: #3AAAE1;
+}
+
+.fb svg, .instagram svg, .thumblr svg, .pinterest svg, .twitter svg {
+  width: 50px;
+}
