@@ -5,6 +5,17 @@
 5. svg social icons
 
 Task
-include:
-1. bootstrap-autohidingnavbar
-2. sticky-kit
+
+ - organize folder view | partial | template
+
+
+Include:
+
+ - bootstrap-autohidingnavbar
+ - sticky-kit
+
+
+Optional
+
+ - jquery-flickr-photoset-master
+ - Gallery-master
