@@ -9,7 +9,7 @@
 			a.navbar-brand(href='#') PPT
 		#navbar-collapse-1.navbar-collapse.collapse
 			ul.nav.navbar-nav.navbar-right
-				// Classic list 
+				//- SOLUTIONS
 				li.dropdown.yamm-fw
 					a.dropdown-toggle(href='#', data-toggle='dropdown') SOLUTIONS
 						b.caret
@@ -75,7 +75,7 @@
 													ul
 														li: a(href='#') EmergencyNET – Request for info
 
-
+				//- PRODUCTS
 				li.dropdown.yamm-fw
 					a.dropdown-toggle(href='#', data-toggle='dropdown') PRODUCTS
 						b.caret
@@ -111,6 +111,7 @@
 												li: a(href='#') Software Defined Radio Solutions
 												li: a(href='#') Wire-Speed Solutions
 
+				//- RESOURCES
 				li.dropdown
 					a.dropdown-toggle(data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false") RESOURCES
 						b.caret
@@ -118,14 +119,33 @@
 						li: a(href='#') Product Brochures
 						li: a(href='#') Technical Support
 
+				//- ABOUT US
 				li.dropdown.yamm-fw
 					a.dropdown-toggle(href='#', data-toggle='dropdown') ABOUT US
 						b.caret
 					ul.dropdown-menu
 						li
-							// Content container to add padding 
+							// Content container to add padding
 							.yamm-content
 								.row
+									ul.col-sm-4.list-unstyled
+										li
+											p: strong
+												a(href='#') COMPANY
+											hr
+										li
+											p: strong
+												a(href='#') CAREERS
+											hr
+										li
+											p: strong
+												a(href='#') CONTACT
+											hr
+										li
+											p: strong
+												a(href='#') SOCIAL NETWORK
+											hr
+
 									ul.col-sm-8.list-unstyled
 										li
 											p: strong
@@ -147,24 +167,17 @@
 												li.col-sm-12
 													hr
 													a(href='#') Quality and csr issue notification
+				//- CONTACT
+					li.dropdown
+						a.dropdown-toggle(href='#', data-toggle='dropdown') Contact
 
-									ul.col-sm-4.list-unstyled
-										li
-											p: strong
-												a(href='#') Company
-											hr
-										li
-											p: strong
-												a(href='#') CAREERS
-											hr
-				li.dropdown
-					a.dropdown-toggle(href='#', data-toggle='dropdown') Contact
-
+				//- NEWS
 				li.dropdown
 					a.dropdown-toggle(href='#', data-toggle='dropdown') News
+
+				//- SEARCH
 				li
 					form.navbar-form.navbar-left(role="search")
 						.form-group
 							input.form-control(type="text" placeholder="Search")
 						button(type="submit" class="btn btn-default") Submit
-			
